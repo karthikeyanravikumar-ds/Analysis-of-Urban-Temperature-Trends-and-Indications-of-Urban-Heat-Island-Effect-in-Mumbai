@@ -25,6 +25,7 @@ Rainfall (if applicable)
 ☀️ Seasonal variations follow consistent patterns across years
 🌧️ Rainfall shows some influence on temperature fluctuations
 🌆 The results suggest indications of the Urban Heat Island (UHI) effect in Mumbai
+
 🛠️ Tools & Technologies Used
 Python
 Pandas (Data manipulation)
