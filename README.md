@@ -1,48 +1,78 @@
-# Analysis-of-Urban-Temperature-Trends-and-Indications-of-Urban-Heat-Island-Effect-in-Mumbai
-📌 Project Overview
-This project analyzes long-term temperature trends in Mumbai using historical climate data from 1951 to 2024. The study focuses on identifying patterns that indicate the presence of the Urban Heat Island (UHI) effect through exploratory data analysis (EDA).
+🌡️ Analysis of Urban Temperature Trends & Indications of UHI in Mumbai
+A data-driven project analyzing long-term temperature trends to identify potential Urban Heat Island (UHI) effects in Mumbai.
 
-🎯 Objective
-To analyze long-term temperature trends in Mumbai using historical data
-To identify changes in maximum and minimum temperatures over time
-To examine seasonal and yearly temperature variations
-To detect patterns that indicate possible Urban Heat Island (UHI) effects
-To visualize temperature trends for better understanding
+📌 Abstract
+This project explores historical temperature data from 1951 to 2024 to understand long-term climate patterns in Mumbai. Using Exploratory Data Analysis (EDA), the study identifies rising temperature trends, seasonal consistency, and increasing nighttime temperatures.
+The analysis highlights patterns that may indicate the presence of the Urban Heat Island (UHI) effect, influenced by urbanization, land-use changes, and reduced green cover.
+
+🎯 Objectives
+#	Objective
+1	Analyze long-term temperature trends
+2	Study changes in maximum and minimum temperatures
+3	Examine seasonal and yearly variations
+4	Identify indicators of Urban Heat Island (UHI)
+
+🔬 Methodology
+Method	Purpose
+Data Collection	Historical daily temperature dataset (1951–2024)
+Data Cleaning	Handling missing values & mixed date formats
+Feature Engineering	Creating mean temperature, time-based features
+Exploratory Data Analysis (EDA)	Trend and pattern analysis
+Visualization	Graphical representation of insights 
 
 📊 Dataset Information
 Dataset: Mumbai Daily Temperature Data (1951–2024)
-Type: Time-series climate data
-Features include:
-Date
-Maximum Temperature
-Minimum Temperature
-Rainfall (if applicable)
-(This dataset provides over 70 years of daily observations, enabling long-term climate analysis.)
+Type: Time-Series Data
 
-🔍 Key Insights
-📈 A gradual increase in temperature trends has been observed over the decades
-🌙 Minimum temperatures show a noticeable rise, indicating reduced nighttime cooling
-☀️ Seasonal variations follow consistent patterns across years
-🌧️ Rainfall shows some influence on temperature fluctuations
-🌆 The results suggest indications of the Urban Heat Island (UHI) effect in Mumbai
+📌 Features:
+📅 Date
+🌡️ Maximum Temperature
+🌡️ Minimum Temperature
+🌧️ Rainfall (optional)
 
-🛠️ Tools & Technologies Used
-Python
-Pandas (Data manipulation)
-NumPy (Numerical operations)
-Matplotlib / Seaborn (Data visualization)
-Jupyter Notebook
+Dataset contains 70+ years of daily observations, enabling robust long-term analysis.
 
-⚠️ Limitations
-The dataset does not include spatial (area-wise) data
-No rural comparison is included to conclusively prove UHI
-The study is exploratory and does not include predictive modeling
+📊 Analysis Visualizations
+📈 Yearly Temperature Trend
+Shows long-term increase in average temperature.
+📆 Monthly Seasonal Pattern
+Highlights seasonal temperature variations.
+🔥 Heatwave Frequency
+Indicates increase in extreme temperature events.
+
+📊 Key Insights
+📈 Gradual increase in overall temperature trends
+🌙 Rising minimum temperatures (reduced nighttime cooling)
+☀️ Stable seasonal patterns across years
+🌧️ Rainfall shows moderate influence on temperature
+🌆 Patterns suggest possible Urban Heat Island effect
+
+💡 Recommendations
+Integrate spatial (ward-level) datasets
+Perform urban vs rural comparison
+Increase urban green infrastructure
+Build data-driven climate monitoring tools
+
+🗂️ Repository Structure
+urban-temperature-uhi-analysis/
+│
+├── notebook/
+│   └── eda_analysis.ipynb
+│
+├── dataset/
+│   └── mumbai_temperature_1951_2024.csv
+│
+└── README.md
 
 🚀 Future Scope
-Integrate geospatial data for location-based analysis
-Apply machine learning models for temperature prediction
-Develop interactive dashboards for better visualization
-Compare urban vs rural temperature data for stronger UHI validation
+🌍 Add geospatial analysis (ward-level mapping)
+🤖 Apply machine learning models
+📊 Build interactive dashboards (Power BI / Streamlit)
+🌱 Compare urban vs rural climate patterns
+
+🔗 References
+India Meteorological Department
+United Nations Sustainable Development Goals
 
 👨‍💻 Author
 Karthikeyan Ravikumar
